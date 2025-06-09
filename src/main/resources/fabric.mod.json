@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "oyvey",
+  "id": "slopta",
   "version": "${version}",
-  "name": "oyvey-ported",
+  "name": "SloptaClient",
   "description": "free and opensource client base",
   "authors": [
     "3arthqu4ke",
@@ -17,14 +17,14 @@
   "accessWidener": "oyvey.accesswidener",
   "entrypoints": {
     "client": [
-      "me.alpha432.oyvey.OyVey"
+      "today.slopta.dev.Slopta"
     ],
     "main": [
-      "me.alpha432.oyvey.OyVey"
+      "today.slopta.dev.Slopta"
     ]
   },
   "mixins": [
-    "oyvey.mixins.json"
+    "slopta.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",
